@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Summary</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    button {
+      width: 100%;
+      padding: 8px;
+      background-color: #0066cc;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+    button:hover {
+      background-color: #0055aa;
+    }
+    .note {
+      font-size: 12px;
+      color: #666;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Movie Summary</h2>
+  <button id="summarizeBtn">Create Movie Summary</button>
+  <button id="restoreBtn">Restore Original Page</button>
+  <div class="note">
+    Note: This extension works on critic.de movie pages. Click "Create Movie Summary" to transform the page into a condensed summary view.
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
